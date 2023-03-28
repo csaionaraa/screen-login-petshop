@@ -4,95 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DooPet'<s></s></title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sign in Sign up Form</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <main>
         <div class="box">
             <div class="inner-box">
                 <div class="forms-wrap">
-                    <form action="index.html" autocomplete="off" class="sign-in.form">
+                    <form action="index.html" autocomplete="off" class="sign-in-form">
                         <div class="logo">
-                            <img src="#" alt="logo"> <!--Inserir imagem-->
-                            <h4>DooPet's</h4>
+                            <img src="img/image.png" alt="easyclass">
+                            <h3>easyclass</h3>
                         </div>
 
                         <div class="heading">
-                            <h2>Bem vindo</h2>
-                            <h6>Não tem cadastro?</h6>
-                            <a href="#" class="toggle">Cadastre-se</a>
+                            <h2>welcome back</h2>
+                            <h6>not registred yet?</h6>
+                            <a href="#" class="toggle">Sign up</a>
                         </div>
 
-                        <div class="actual-form"> <!--Email-->
-                            <div class="input-wrap">
-                                <input type="text" minlength="4" class="input-field" autocomplete="off" required>
-                                <label>Nome</label>
+                        <div class="actual-form">
+                            <div class="input-wrap"> <!--Login-->
+                                <input 
+                                    type="text" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off"
+                                    required
+                                    />
+                                <label>Name</label>
                             </div>
-                            <div class="input-wrap"> <!--Senha-->
-                                <input type="password" minlength="4" class="input-field" autocomplete="off" required>
-                                <label>Password</label>
-                            </div>
-                            <input type="submit" value="submit" class="sign-btn"/>
-                            <p class="text"><a href="#">Esqueceu a senha?</a></p>
-                        </div>
-                    </form>
-
-                    <form action="index.html" autocomplete="off" class="sing-up-form">
-                        <div>
-                            <img src="#" alt="logo"> <!--Inserir imagem-->
-                            <h4>DooPet's</h4>
-                        </div>
-
-                        <div class="heading">
-                            <h2>Get started</h2>
-                            <h6>Already Have An Account</h6>
-                            <a href="#" class="toggle">Sign In</a>
-                        </div>
-                            <div class="actual-form">
+                            
                             <div class="input-wrap">
-                                <input type="text" minlength="4" autocomplete="off" class="input-field" required>
-                                <label>Nome</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input type="email" class="input-field" autocomplete="off" required>
-                            <label>Email</label>
-                            </div>
-                            <div class="input-wrap">
-                                <input type="password" minlength="4" class="input-field" autocomplete="off" required>
+                                <input 
+                                    type="password" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off"
+                                    required
+                                    />
                                 <label>Password</label>
                             </div>
 
-                            <input type="submit" value="Sign In" class="sing-btn">
-                            <p class="text">By Signing Up, I agree to the</p>
-                            <a href="#">Terms and Conditions</a> and
-                            <a href="#">Privacy and Policy</a>
+                            <input type="submit" value="Sign in" class="sign-btn"/>
+
+                            <p class="text">
+                                Forgotten your password or you login details
+                                <a href="#">Get help</a> Signing in
+                            </p>
                         </div>
                     </form>
                 </div>
+                <div class="carousel">
 
-                <div class="carousel"> <!--Inserir imagens-->
-                    <img src="#" class="image img-1 show" alt="">
-                    <img src="#" class="image img-2 show" alt="">
-                    <img src="#" class="image img-3 show" alt="">
-                </div>
-                <div class="text-slider">
-                    <div class="text-wrap">
-                        <div class="text-group">
-                            <h2>Safest Crypto Netword</h2>
-                            <h2>Easy Pagaments</h2>
-                            <h2>Daily Updates</h2>
-                        </div>
-                    </div>
-                    <div class="buulets">
-                        <span class="active" data-value="1"></span>
-                        <span data-value="2"></span>
-                        <span data-value="3"></span>
-                    </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- JAVASCRIPT FILE -->
+
     <script src="app.js"></script>
 </body>
 </html>
