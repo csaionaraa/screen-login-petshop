@@ -11,6 +11,7 @@
     <main>
         <div class="box">
             <div class="inner-box">
+                <!--Login-->
                 <div class="forms-wrap">
                     <form action="index.html" autocomplete="off" class="sign-in-form">
                         <div class="logo">
@@ -19,9 +20,56 @@
                         </div>
 
                         <div class="heading">
-                            <h2>Bem vindo</h2>
+                            <h2>Welcome</h2>
                             <h6>Não tem cadastro?</h6>
                             <a href="#" class="toggle">Cadastre-se</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap"> <!--Login-->
+                                <input 
+                                    type="email" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off"
+                                    required
+                                    />
+                                <label>Email</label>
+                            </div>
+                            
+                            <div class="input-wrap">
+                                <input 
+                                    type="password" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off"
+                                    required
+                                    />
+                                <label>Senha</label> <!--Final Login-->
+                            </div>
+
+                            <input type="submit" value="Sign in" class="sign-btn"/>
+
+                            <p class="text">
+                                Esqueceu a
+                                <a class="textpass" href="#">senha?</a>
+                            </p>
+                        </div>
+                    </form>
+                    <!--Fim de Login-->
+
+                    <!--Cadastro-->
+
+                    <form action="index.html" autocomplete="off" class="sign-in-form">
+                        <div class="logo">
+                            <img src="img/image.png" alt="easyclass">
+                            <h3>Doo pet's</h3>
+                        </div>
+
+                        <div class="heading">
+                            <h2>Welcome</h2>
+                            <h6>Já tem</h6>
+                            <a href="#" class="toggle">login?</a>
                         </div>
 
                         <div class="actual-form">
@@ -33,9 +81,20 @@
                                     autocomplete="off"
                                     required
                                     />
-                                <label>Name</label>
+                                <label>Nome</label>
                             </div>
                             
+                            <div class="input-wrap"> <!--Login-->
+                                <input 
+                                    type="email" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off"
+                                    required
+                                    />
+                                <label>Email</label>
+                            </div>
+
                             <div class="input-wrap">
                                 <input 
                                     type="password" 
@@ -44,17 +103,14 @@
                                     autocomplete="off"
                                     required
                                     />
-                                <label>Password</label> <!--Final Login-->
+                                <label>Senha</label> <!--Final Cadastro-->
                             </div>
 
-                            <input type="submit" value="Sign in" class="sign-btn"/>
-
-                            <p class="text">
-                                Esqueceu a
-                                <a class="textpass" href="#">senha?</a>
-                            </p>
+                            <input type="submit" value="Sign up" class="sign-btn"/>
                         </div>
                     </form>
+
+                    <!--Fim cadastro-->
                 </div>
                 <div class="carousel">
 
