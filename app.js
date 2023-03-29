@@ -1,11 +1,11 @@
-const input = document.querySelectorAll(".input-field");
+const inputs = document.querySelectorAll(".input-field");
 
-inputs.forEach(inp => {
+inputs.forEach((inp) => {
     inp.addEventListener("focus", () => {
-        inp.classList.add("active");
+      inp.classList.add("active");
     });
-    inp.addEventListener("blur", () =>{
-        if (inp.vlaue !="") return;
-        inp.classList.remove("active");
-    })
+    inp.addEventListener("blur", () => {
+      if (inp.value != "") return;
+      inp.classList.remove("active");
+    });
 });
