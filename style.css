@@ -243,7 +243,10 @@ main.sign-up-mode .carousel{
 
 .img-1{
     transform: translate(0, -50px,);
+<<<<<<< HEAD
     margin-left: 25px
+=======
+>>>>>>> 0f369c9a4aa3a33bb6668ffd4ad1ab1f48eebe39
 }
 .img-2{
     transform: scale(0.4, 0.5);
@@ -283,7 +286,11 @@ main.sign-up-mode .carousel{
     line-height: 2.2rem;
     font-weight: 600;
     font-size: 1.5rem;
+<<<<<<< HEAD
     color: rgb(46, 40, 40);
+=======
+    color: rgb(201, 196, 196);
+>>>>>>> 0f369c9a4aa3a33bb6668ffd4ad1ab1f48eebe39
 }
 
 .bullets {
@@ -340,6 +347,7 @@ main.sign-up-mode .carousel{
         margin: 2rem 0;
     }
 
+<<<<<<< HEAD
     form.sing-up-form{
         transform: translateX(-100%);
     }
@@ -351,6 +359,8 @@ main.sign-up-mode .carousel{
     main.sign-up-mode form.sign-up-form{
         transform: translateX(0%);
     }
+=======
+>>>>>>> 0f369c9a4aa3a33bb6668ffd4ad1ab1f48eebe39
     .carousel{
         position: revert;
         height: auto;
@@ -366,6 +376,7 @@ main.sign-up-mode .carousel{
     .text-slider{
         width: 100%;
     }
+<<<<<<< HEAD
 }
 
 @media (max-width: 580px){
@@ -394,4 +405,6 @@ main.sign-up-mode .carousel{
     form{
         padding: 1rem 2rem 1.5rem;
     }
+=======
+>>>>>>> 0f369c9a4aa3a33bb6668ffd4ad1ab1f48eebe39
 }
