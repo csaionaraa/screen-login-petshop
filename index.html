@@ -11,29 +11,30 @@
     <main>
         <div class="box">
             <div class="inner-box">
-                <div class="forms-wrap">
+                <!--Login-->
+                <div class="forms-wrap"> 
                     <form action="index.html" autocomplete="off" class="sign-in-form">
                         <div class="logo">
                             <img src="img/image.png" alt="easyclass">
-                            <h3>easyclass</h3>
+                            <h4>Doo pet's</h4>
                         </div>
 
                         <div class="heading">
-                            <h2>welcome back</h2>
-                            <h6>not registred yet?</h6>
-                            <a href="#" class="toggle">Sign up</a>
+                            <h2>Bem vindo ao Doo Pet's</h2>
+                            <h6>Não tem cadastro?</h6>
+                            <a href="#" class="toggle">Cadastre-se</a>
                         </div>
 
                         <div class="actual-form">
                             <div class="input-wrap"> <!--Login-->
-                                <input 
-                                    type="text" 
-                                    minlength="4" 
-                                    class="input-field" 
+                                <input
+                                    type="text"
+                                    minlength="4"
+                                    class="input-field"
                                     autocomplete="off"
                                     required
-                                    />
-                                <label>Name</label>
+                                />
+                                <label>Nome</label>
                             </div>
                             
                             <div class="input-wrap">
@@ -44,19 +45,94 @@
                                     autocomplete="off"
                                     required
                                     />
-                                <label>Password</label>
+                                <label>Senha</label>
                             </div>
 
                             <input type="submit" value="Sign in" class="sign-btn"/>
 
                             <p class="text">
-                                Forgotten your password or you login details
-                                <a href="#">Get help</a> Signing in
+                                Esqueceu a
+                                <a class="textpass" href="#">senha?</a>
                             </p>
                         </div>
                     </form>
+                    <!--Fim de Login-->
+
+                    <!--Cadastro-->
+
+                    <form action="index.html" autocomplete="off" class="sign-up-form">
+                        <div class="logo">
+                            <img src="img/image.png" alt="easyclass"/>
+                            <h3>Doo pet's</h3>
+                        </div>
+
+                        <div class="heading">
+                            <h2>Bem vindo ao Doo pet's</h2>
+                            <h6>Já tem</h6>
+                            <a href="#" class="toggle">login?</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                              <input
+                                type="text"
+                                minlength="4"
+                                class="input-field"
+                                autocomplete="off"
+                                required
+                              />
+                              <label>Nome</label>
+                            </div>
+            
+                            <div class="input-wrap">
+                              <input
+                                type="email"
+                                class="input-field"
+                                autocomplete="off"
+                                required
+                              />
+                              <label>Email</label>
+                            </div>
+            
+                            <div class="input-wrap">
+                              <input
+                                type="password"
+                                minlength="4"
+                                class="input-field"
+                                autocomplete="off"
+                                required
+                              />
+                              <label>Senha</label>
+                            </div>
+                            <input type="submit" value="Sign Up" class="sign-btn" />
+ 
+                        </div>
+                    </form>
+
+                    <!--Fim cadastro-->
                 </div>
+                <!-- Carousel -->
                 <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="./img/carousel_1.png" class="image img-1 show" alt=""/>
+                        <img src="./img/carousel_2.png" class="image img-2" alt=""/>
+                        <img src="./img/carousel_3.png" class="image img-3" alt=""/>
+                    </div>
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h3>Deixe o seu bichinho glamuroso!</h3>
+                                <h3>Felicidade é comer ração de qualidade!</h3>
+                                <h3>Banho e tosa para o seu bichinho!</h3>
+                            </div>
+
+                        </div>
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span> 
+                        </div>
+                    </div>
 
                 </div>
             </div>
