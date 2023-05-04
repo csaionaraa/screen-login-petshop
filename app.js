@@ -37,3 +37,18 @@ function moveSlider(){
 bullets.forEach((bullet) => {
   bullet.addEventListener("click", moveSlider);
 });
+
+let count = 1;
+document.getElementById("img1").checked = true;
+
+setInterval(function(){
+  nextImage();
+}, 14000)
+
+function nextImage(){
+  count++
+  if(count>6){
+    count = 1
+  }
+  document.getElementById("img"+count).checked = true;
+}
